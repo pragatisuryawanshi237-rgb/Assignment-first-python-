@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyO/e74Q4EhxMLzw9dHDdhn6",
+      "authorship_tag": "ABX9TyP5o/BgokogHnaZEmDnGNZd",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,31 +28,21 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "hY3l41da--9a",
-        "outputId": "c514396c-7f36-4cec-ab77-c01497806f66",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        }
-      },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Sum: 25\n"
-          ]
-        }
-      ],
       "source": [
-        "sum = 0\n",
+        "string = input(\"Enter a string: \")\n",
+        "result = \"\"\n",
         "\n",
-        "for i in range(1, 11, 2):\n",
-        "    sum += i\n",
+        "for i in range(len(string)):\n",
+        "    if i % 2 == 0:\n",
+        "        result += string[i]\n",
         "\n",
-        "print(\"Sum:\", sum)"
-      ]
+        "print(\"String after removing odd index characters:\", result)"
+      ],
+      "metadata": {
+        "id": "Ik8G-rKoAAWO"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
