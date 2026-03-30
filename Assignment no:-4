@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyO8Nyu245r3THxaFWYiiClr",
+      "authorship_tag": "ABX9TyO/e74Q4EhxMLzw9dHDdhn6",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,13 +28,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 1,
+      "execution_count": null,
       "metadata": {
+        "id": "hY3l41da--9a",
+        "outputId": "c514396c-7f36-4cec-ab77-c01497806f66",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "hY3l41da--9a",
-        "outputId": "c514396c-7f36-4cec-ab77-c01497806f66"
+        }
       },
       "outputs": [
         {
@@ -53,15 +53,6 @@
         "\n",
         "print(\"Sum:\", sum)"
       ]
-    },
-    {
-      "cell_type": "code",
-      "source": [],
-      "metadata": {
-        "id": "cnERa2Bq_E3o"
-      },
-      "execution_count": null,
-      "outputs": []
     }
   ]
 }
